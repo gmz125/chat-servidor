@@ -1,0 +1,25 @@
+{
+	"name": "server_cors",
+	"license": "ISC",
+	"version": "1.0.0",
+	"author": "Jorge Mario Figueroa García",
+	"description": "Desarrollo Web Avanzado",
+	"scripts": {
+		"start": "node wsServerClass.js",
+		"mario": "node wsClienteClass.js Mario",
+		"carlos": "node wsClienteClass.js Carlos",
+		"sergio": "node wsClienteClass.js Sergio",
+		"chatMarioSergio": "node chatFecha.js Mario Sergio",
+		"chatSergioMario": "node chatFecha.js Sergio Mario",
+		"chatCarlosTodos": "node chatFecha.js Carlos Todos"
+	},
+	"type": "module",
+	"main": "server.js",
+	"keywords": [],
+	"dependencies": {
+		"lucide-react": "^1.11.0",
+		"mariadb": "^3.5.1",
+		"pg": "^8.21.0",
+		"ws": "^8.20.0"
+	}
+}
