@@ -17,8 +17,10 @@
 	"main": "server.js",
 	"keywords": [],
 	"dependencies": {
+		"dotenv": "^17.4.2",
 		"lucide-react": "^1.11.0",
 		"mariadb": "^3.5.1",
+		"mysql2": "^3.22.3",
 		"pg": "^8.21.0",
 		"ws": "^8.20.0"
 	}
